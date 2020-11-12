@@ -2,7 +2,7 @@
 name: repo_sync
 on:
   schedule:
-    - cron: '1 0,15 * * *'
+    - cron: '1 */30 * * *'
   workflow_dispatch:
   watch:
     types: started
