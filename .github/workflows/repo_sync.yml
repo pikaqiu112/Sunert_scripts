@@ -30,7 +30,7 @@ jobs:
           github_token: ${{ secrets.PAT }}
       
 
-      - name: Merge master from main	
+      - name: Merge main -> master	
         uses: devmasx/merge-branch@v1.3.1	
         if: env.PAT	
         with:	
