@@ -1,8 +1,8 @@
 # File: .github/workflows/repo-sync.yml
-name: repo_sync
+name: 同步上游仓库
 on:
   schedule:
-    - cron: '1 */3 * * *'
+    - cron: '1 0,15 * * *'
   workflow_dispatch:
   watch:
     types: started
@@ -28,8 +28,8 @@ jobs:
           source_branch: "master"
           destination_branch: "main"
           github_token: ${{ secrets.PAT }}
-      
-
+          
+          
       - name: Merge main -> master	
         uses: devmasx/merge-branch@v1.3.1	
         if: env.PAT	
@@ -38,3 +38,5 @@ jobs:
           from_branch: main	
           target_branch: master	
           github_token: ${{ secrets.PAT }}
+
+      
