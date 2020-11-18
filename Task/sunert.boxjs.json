@@ -6,7 +6,7 @@
   "repo": "https://gitee.com/Sunert/Scripts/tree/master",
   "apps": [
     {
-      "id": "10000",
+      "id": "中国电信",
       "name": "中国电信",
       "keys": ["dianx_headers", "dianx_body"],
       "author": "@sunert",
