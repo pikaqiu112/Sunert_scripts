@@ -6,13 +6,13 @@
   "repo": "https://gitee.com/Sunert/Scripts/tree/master",
   "apps": [
     {
-      "id": "weibo",
-      "name": "新浪微博",
-      "keys": ["sy_payheader_wb", "sy_token_wb"],
+      "id": "10000",
+      "name": "中国电信",
+      "keys": ["dianx_headers", "dianx_body"],
       "author": "@sunert",
-      "repo": "https://gitee.com/Sunert/Scripts/blob/master/Task/weibo.js",
+      "repo": "https://raw.githubusercontent.com/elecV2/QuantumultX-Tools/master/dianx/dianx.js",
       "icons": ["https://raw.githubusercontent.com/Orz-3/mini/master/weibo.png", "https://raw.githubusercontent.com/Orz-3/task/master/weibo.png"],
-      "script": "https://gitee.com/Sunert/Scripts/raw/master/Task/weibo.js"
+      "script": "https://raw.githubusercontent.com/elecV2/QuantumultX-Tools/master/dianx/dianx.js"
     },
     {
       "id": "youth",
